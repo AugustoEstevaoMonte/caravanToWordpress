@@ -1,0 +1,124 @@
+/*
+Theme Name: Caravan website
+Theme URI: http://caravan.com
+Author: Augusto Estevão Monte
+Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small.
+Version: 1.0
+*/
+
+
+
+.box-shadow {
+  -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05), 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05), 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+}
+
+body {
+  padding-top: 75px;
+}
+
+.icons {
+  height: 100px;
+}
+
+.section-img {
+  background: url("img/bg-quote.jpg") center center;
+  background-size: cover;
+}
+
+.pergunta {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+
+/*Mexer nas listas do menu*/
+.menu_principal li
+{
+  list-style: none !important;
+  display: inline-block;
+}
+
+.menu_principal li > a
+{
+  text-decoration: none !important;;;
+  color: rgba(0, 0, 0, 0.5);
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+.menu_principal li > a:hover
+{
+  color:black !important;
+}
+
+
+.menu_principal li > .sub-menu
+{
+  display: none !important;
+}
+
+.menu_principal li:hover > .sub-menu
+{
+  display: block !important;
+  position: absolute;
+  background-color: white;
+  float: none !important;
+  top: 100% !important;
+  left: 88% !important;
+  margin-top: -37px !important;
+  z-index: 1000;
+  min-width: 10rem !important;
+  padding: 0.5rem 0;
+  margin: 0.125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+}
+
+.menu_principal li .sub-menu > li
+{
+  display: block;
+  width: 100%;
+  padding: 0.25rem 1.5rem;
+  clear: both;
+  font-weight: 400;
+  color: #212529;
+  text-align: inherit;
+  white-space: nowrap;
+  background: none;
+  border: 0;
+}
+/*Mexer nas listas do menu*/
+
+
+
+
+.normalizeThis {
+  max-width: 140px;
+}
+
+.lista-plano li {
+  padding: 1rem;
+}
+
+.lista-plano li + li {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 767px) {
+  .section-img .display-4 {
+    font-size: 2.5rem;
+  }
+  body {
+    padding-top: 0px;
+  }
+  .fixed-top {
+    position: relative;
+  }
+}
+/*# sourceMappingURL=style.css.map */

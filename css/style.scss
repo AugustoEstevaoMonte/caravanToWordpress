@@ -1,0 +1,46 @@
+.box-shadow
+{
+  box-shadow: 0px 2px 4px 0px rgba(0,0,0,.05),
+  0px 4px 8px 0px rgba(0,0,0,.05);
+}
+body{
+  padding-top: 75px;
+}
+.icons{
+  height: 100px;
+}
+.section-img{
+  background: url('../img/bg-quote.jpg') center center;
+  background-size: cover;
+}
+.pergunta{
+  border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.normalizeThis{
+ max-width: 140px;
+}
+.lista-plano li
+{
+  padding: 1rem;
+}
+
+.lista-plano li + li //Seleciona todo o li que vier após o li que tiver dentro da lista plano
+{
+  border-top: 1px solid rgba(0,0,0,.2);
+}
+//O media query foi usado apenas para ajustar a tipografia para ficar RESPONSIVA aumentar e diminuir conforme o tamanho da tela.
+@media (max-width: 767px)
+{
+  .section-img .display-4
+  {
+    font-size: 2.5rem;
+  }
+  body
+  {
+    padding-top: 0px;
+  }
+  .fixed-top
+  {
+    position: relative;
+  }
+}
