@@ -54,7 +54,7 @@
     <header>
     <!--Inicio da navbar-->
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top py-3 box-shadow">
-      <a href="index.html" class="navbar-brand">
+      <a href="/augusto/wordpress/" class="navbar-brand">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/caravan.svg" alt="Caravan">
       </a>
       <!--Fim da navbar-->

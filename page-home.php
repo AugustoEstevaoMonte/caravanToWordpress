@@ -176,7 +176,7 @@
                <!--Fim da seção de itens -->
             </div>
             <!--Botão de PLANOS-->
-            <a class="btn btn-primary btn-lg mt-5" href="#">Comprar plano</a>
+            <a class="btn btn-primary btn-lg mt-5" href="/augusto/wordpress/planos-2/">Comprar plano</a>
              <!--Fim do Botão de PLANOS-->
         </section>
 

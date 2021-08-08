@@ -95,6 +95,43 @@ body {
 }
 /*Mexer nas listas do menu*/
 
+/*INICIO DAS LISTAS DO MENU NO MOBILE*/
+@media  (max-width: 750px)
+{
+  .menu_principal > li
+  {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0 5px;
+    margin: 0;
+  }
+
+  .nav-item .btn
+  {
+    margin-left: 50px !important;
+  }
+
+  .menu_principal li:hover > .sub-menu
+  {
+    
+    top: 100% !important;
+    left: 15% !important;
+    margin-top: -77px !important;
+  }
+}
+
+@media (min-width:752px) and (max-width: 1200px)
+{
+  .menu_principal li:hover > .sub-menu
+  {
+    
+    top: 100% !important;
+    left: 76% !important;
+    margin-top: -35px !important;
+  }
+}
+/*FIM DAS LISTAS DO MENU NO MOBILE*/
+
 
 
 

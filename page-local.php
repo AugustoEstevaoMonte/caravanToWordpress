@@ -20,21 +20,21 @@
                     <div class="row">
 
                           <div class="col-md">
-                                <img class="img-fluid mb-4" src="foto-1.jpg" alt="Foto1">
-                                <img class="img-fluid mb-4" src="foto-2.jpg" alt="Foto2">
-                                <img class="img-fluid mb-4" src="foto-3.jpg" alt="Foto3">
+                                <img class="img-fluid mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/foto-1.jpg" alt="Foto1">
+                                <img class="img-fluid mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/foto-2.jpg" alt="Foto2">
+                                <img class="img-fluid mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/foto-3.jpg" alt="Foto3">
                           </div>
 
 
 
                           <div class="col-md">
-                            <img class="img-fluid mb-4" src="foto-4.jpg" alt="Foto4">
-                            <img class="img-fluid mb-4" src="foto-5.jpg" alt="Foto5">
+                            <img class="img-fluid mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/foto-4.jpg" alt="Foto4">
+                            <img class="img-fluid mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/foto-5.jpg" alt="Foto5">
                           </div>
 
                           <div class="col-md">
-                            <img class="img-fluid mb-4" src="foto-6.jpg" alt="Foto6">
-                            <img class="img-fluid mb-4" src="foto-7.jpg" alt="Foto7">
+                            <img class="img-fluid mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/foto-6.jpg" alt="Foto6">
+                            <img class="img-fluid mb-4" src="<?php echo get_stylesheet_directory_uri(); ?>/foto-7.jpg" alt="Foto7">
                           </div>
                           <!--Fim da Galeria de fotos-->
                     </div>
